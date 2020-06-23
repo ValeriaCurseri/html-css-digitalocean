@@ -6,7 +6,7 @@
 }
 
 .bg-blue{
-    background-image: linear-gradient(#001e9a, #00475c);
+    background-image: linear-gradient(#0047c5, #001e99);
     color:#fff;
 }
 
@@ -32,12 +32,24 @@ h1, h2, h3, h4, h5, h6, p, span {
     color: #5b6987;
 }
 
+li, a {
+    color:#006aff;
+}
+
+li:hover, a:hover {
+    color:#006aff;
+}
+
+.vc_mark {
+    color:#006aff;
+}
+
 /* FINE TIPOGRAFIA */
 
 /* STRUTTURA */
 
 /* header */
-section .container,
+section .container:not(:nth-child(1)),
 footer .container { /* da cancellare */
     height:100px;
     border:1px solid red;
@@ -71,4 +83,61 @@ footer .container { /* da cancellare */
     background-color: #006aff;
 }
 
+/* banner */
+
+/* .vc_banner {
+    position:relative;
+} */
+
+.vc_banner .jumbotron {
+    background: none;
+}
+
+.vc_form .vc_title span {
+    display: block;
+    font-size: 26px;
+}
+
+.vc_form {
+    border-radius: 5px;
+    padding-top:30px;
+    padding-bottom: 30px;
+    /* position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10%; */
+}
+
+.vc_form .btn {
+    width:100%;
+    margin-bottom:10px;
+}
+
+.vc_form .btn.vc_create {
+    box-shadow: none;
+    border:none;
+    background-color: #579aff;
+    color:#fff;
+}
+
+.vc_form .btn.vc_create:hover {
+    background-color: #006aff;
+}
+
+.vc_form .btn.vc_signup {
+    box-shadow: 2px 2px 4px #888888;
+    border:none;
+}
+
+.vc_form span {
+    font-size: 12px;
+}
+
 /* FINE STRUTTURA */
+
+
+/* DA FARE
+- ridurre a mano la larghezza delle voci di menu
+- allineamento form in banner
+- aggiungere la G di Google al form
+ */
