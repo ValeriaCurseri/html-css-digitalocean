@@ -28,9 +28,39 @@
 
 /* STRUTTURA */
 
-.container { /* da cancellare */
+/* header */
+section .container,
+footer .container { /* da cancellare */
     height:100px;
     border:1px solid red;
+}
+
+.vc_navbar {
+    margin-bottom: 0;
+    border: none;
+    background-color: inherit;
+    color:#031b4f;
+}
+
+.vc_navbar .vc_navbar-collapse li,
+.vc_navbar .vc_navbar-collapse li a {
+    color:#031b4f;
+}
+
+.vc_btn-default {
+    color: #006aff;
+    background-color: #fff;
+    border-color: #006aff;
+}
+
+/* personalizzazione hamburger */
+
+.vc_navbar-toggle {
+    border:none;
+}
+
+.vc_navbar .vc_navbar-toggle .icon-bar {
+    background-color: #006aff;
 }
 
 /* FINE STRUTTURA */
