@@ -28,6 +28,12 @@ h1, h2, h3, h4, h5, h6, p, span {
     font-family: 'Roboto','Helvetica Neue','Helvetica','Arial','sans-serif';
 }
 
+h4 {
+    text-transform: uppercase;
+    color: #5b6986;
+    font-weight: bold;
+}
+
 .bg-white p {
     color: #5b6987;
 }
@@ -48,12 +54,16 @@ li:hover, a:hover {
 
 /* STRUTTURA */
 
-/* header */
 section .container:not(:nth-child(1)),
 footer .container { /* da cancellare */
-    height:100px;
     border:1px solid red;
 }
+
+section {
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+/* header */
 
 .vc_navbar {
     margin-bottom: 0;
@@ -133,11 +143,20 @@ footer .container { /* da cancellare */
     font-size: 12px;
 }
 
+/* clients */
+
+.vc_clients .row{
+    padding-top: 30px;
+    padding-bottom:30px;
+}
+
+
 /* FINE STRUTTURA */
 
 
 /* DA FARE
-- ridurre a mano la larghezza delle voci di menu
+- ridurre a mano la larghezza delle voci di menu in md
 - allineamento form in banner
 - aggiungere la G di Google al form
+- ridurre a mano la larghezza dei loghi clients in md
  */
