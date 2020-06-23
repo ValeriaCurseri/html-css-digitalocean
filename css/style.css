@@ -24,14 +24,23 @@
 
 /* TIPOGRAFIA */
 
-h1, h2, h3, h4, h5, h6, p, span {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto','Helvetica Neue','Helvetica','Arial','sans-serif';
+    font-weight: bold;
+}
+
+p, span {
+    font-family: 'Roboto','Helvetica Neue','Helvetica','Arial','sans-serif';
+    font-size: 16px;
 }
 
 h4 {
     text-transform: uppercase;
     color: #5b6986;
-    font-weight: bold;
+}
+
+h2 + p {
+    font-size: 20px
 }
 
 .bg-white p {
@@ -150,6 +159,9 @@ section {
     padding-bottom:30px;
 }
 
+/* properties */
+
+
 
 /* FINE STRUTTURA */
 
@@ -158,5 +170,5 @@ section {
 - ridurre a mano la larghezza delle voci di menu in md
 - allineamento form in banner
 - aggiungere la G di Google al form
-- ridurre a mano la larghezza dei loghi clients in md
+- ridurre a mano la larghezza dei loghi clients in md (img-responsive?)
  */
