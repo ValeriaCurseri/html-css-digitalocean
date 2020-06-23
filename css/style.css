@@ -24,6 +24,14 @@
 
 /* TIPOGRAFIA */
 
+h1, h2, h3, h4, h5, h6, p, span {
+    font-family: 'Roboto','Helvetica Neue','Helvetica','Arial','sans-serif';
+}
+
+.bg-white p {
+    color: #5b6987;
+}
+
 /* FINE TIPOGRAFIA */
 
 /* STRUTTURA */
@@ -39,12 +47,12 @@ footer .container { /* da cancellare */
     margin-bottom: 0;
     border: none;
     background-color: inherit;
-    color:#031b4f;
 }
 
 .vc_navbar .vc_navbar-collapse li,
 .vc_navbar .vc_navbar-collapse li a {
     color:#031b4f;
+    font-family: 'Helvetica', 'sans-serif';
 }
 
 .vc_btn-default {
