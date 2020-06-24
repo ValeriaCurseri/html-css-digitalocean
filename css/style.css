@@ -234,6 +234,32 @@ section {
     padding-top: 30px;
 }
 
+/* LOCATIONS */
+
+.vc_locations .vc_code {
+    width:80px;
+    font-weight: bold;
+}
+
+.vc_locations .vc_location .vc_loc {
+    border-bottom:1px solid #fff;
+    line-height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* .vc_locations .vc_location .vc_loc:last-of-type {
+    border-bottom: none;
+} */
+
+.vc_loc{
+    width: 95%;
+}
+
+.vc_locations .vc_location .vc_loc a {
+    color: aqua;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (min-width:768px) {
@@ -254,6 +280,11 @@ section {
         margin-top:50px;
         margin-bottom:0;
     }
+
+    /* .vc_locations .vc_location .vc_loc:nth-last-of-type(-n + 4) {
+    border-bottom: none;
+    } */
+
 }
 
 /* FINE STRUTTURA */
@@ -266,4 +297,5 @@ section {
 - ridurre a mano la larghezza dei loghi clients in md (img-responsive?)
 - properties aggiornate al nuovo sito
 - centramento verticale delle i dei carousel (before e after?)
+- togliere border-bottom alle ultime due righe di location
  */
