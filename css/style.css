@@ -201,6 +201,33 @@ section {
 .vc_carousel .vc_dots i {
     color: #006aff;
 }
+
+.vc_carousel .vc_blockquote {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top:50px;
+    margin-bottom: 20px;
+}
+
+.vc_carousel .vc_blockquote img {
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+.vc_carousel .vc_blockquote .vc_quote {
+    font-size: 20px;
+    color: #5b6987;
+}
+
+.vc_carousel .vc_blockquote .vc_quoter {
+    font-weight: bold;
+}
+
+.vc_carousel .vc_blockquote .vc_quoter-position {
+    margin:0 auto;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (min-width:768px) {
@@ -232,5 +259,5 @@ section {
 - aggiungere la G di Google al form
 - ridurre a mano la larghezza dei loghi clients in md (img-responsive?)
 - properties aggiornate al nuovo sito
-- centramento verticale delle i dei carousel
+- centramento verticale delle i dei carousel (before e after?)
  */
