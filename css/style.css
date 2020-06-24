@@ -64,12 +64,8 @@ li:hover, a:hover {
 
 /* STRUTTURA */
 
-section .container:not(:nth-child(1)),
-footer .container { /* da cancellare */
-    border:1px solid red;
-}
-
-section {
+section,
+footer {
     padding-top:50px;
     padding-bottom: 50px;
 }
@@ -259,6 +255,46 @@ section {
 .vc_locations .vc_location .vc_loc a {
     color: aqua;
 }
+
+/* FOOTER */
+footer img,
+footer span {
+    display: block;
+    color:lightgray;
+}
+
+footer img {
+    padding-bottom:10px;
+}
+
+footer .vc_social i {
+    color:lightgray;
+    font-size: 28px;
+    padding-right: 10px;
+}
+
+footer h6 {
+    font-size: 16px;
+}
+
+footer ul {
+    list-style: none;
+    padding-left:0;
+}
+
+footer li,
+footer a {
+    color: lightgray;
+}
+
+footer li:hover,
+footer a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
 
 /* MEDIA QUERIES */
 
