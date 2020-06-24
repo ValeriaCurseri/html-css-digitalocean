@@ -228,6 +228,12 @@ section {
     margin:0 auto;
 }
 
+/* FEATURES */
+
+.vc_feature {
+    padding-top: 30px;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (min-width:768px) {
