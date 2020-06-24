@@ -43,7 +43,8 @@ h2 + p {
     font-size: 20px
 }
 
-.bg-white p {
+.bg-white p,
+.bg-grey p {
     color: #5b6987;
 }
 
@@ -161,14 +162,75 @@ section {
 
 /* properties */
 
+.vc_properties .vc_list-group-item {
+    border-top: none;
+    border-right:none;
+    border-bottom: none;
+    border-left: 1px solid #ddd;
+}
 
+.vc_properties .vc_list-group-item li,
+.vc_properties .vc_list-group-item a {
+    color: #5b6987;
+}
+
+.vc_properties .vc_menu-selezione {
+    margin-top:50px;
+}
+
+.vc_properties .vc_menu-selezione .vc_box {
+    margin-bottom: 30px;
+}
+
+/* carousel */
+
+.vc_carousel-row {
+    margin-top:100px;
+    margin-bottom:80px;
+}
+
+.vc_icona {
+    display:none;
+}
+
+.vc_carousel span {
+    margin-top: 20px;
+    display:block;
+}
+
+.vc_carousel .vc_dots i {
+    color: #006aff;
+}
+/* MEDIA QUERIES */
+
+@media screen and (min-width:768px) {
+
+    .vc_icona {
+        display:inline-block;
+    }
+
+    .vc_carousel .vc_icona i {
+        font-size: 30px;
+    }
+
+
+}
+
+@media screen and (min-width:992px) {
+    .vc_carousel-row {
+        margin-top:50px;
+        margin-bottom:0;
+    }
+}
 
 /* FINE STRUTTURA */
 
 
 /* DA FARE
 - ridurre a mano la larghezza delle voci di menu in md
-- allineamento form in banner
+- allineamento form in banner (row dentro container?)
 - aggiungere la G di Google al form
 - ridurre a mano la larghezza dei loghi clients in md (img-responsive?)
+- properties aggiornate al nuovo sito
+- centramento verticale delle i dei carousel
  */
