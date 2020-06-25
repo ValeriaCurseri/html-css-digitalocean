@@ -77,6 +77,10 @@ footer {
     background-color: inherit;
 }
 
+.vc_navbar-brand img {
+    height:100%;
+}
+
 .vc_navbar .vc_navbar-collapse li,
 .vc_navbar .vc_navbar-collapse li a {
     color:#031b4f;
@@ -101,13 +105,13 @@ footer {
 
 /* banner */
 
-/* .vc_banner {
-    position:relative;
-} */
-
 .vc_banner .jumbotron {
     background: none;
 }
+
+/* .h-800 {
+    height:800px;
+} */
 
 .vc_form .vc_title span {
     display: block;
@@ -327,11 +331,12 @@ footer a:hover {
 
 
 /* DA FARE
-- ridurre a mano la larghezza delle voci di menu in md
-- allineamento form in banner (row dentro container?)
+OK - ridurre a mano la larghezza delle voci di menu in md - logo
+- allineamento form in banner (row dentro container?) - dare altezza a col
 - aggiungere la G di Google al form
 - ridurre a mano la larghezza dei loghi clients in md (img-responsive?)
 - properties aggiornate al nuovo sito
 - centramento verticale delle i dei carousel (before e after?)
 - togliere border-bottom alle ultime due righe di location
+- freccia after link
  */
