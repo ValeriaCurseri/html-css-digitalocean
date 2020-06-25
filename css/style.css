@@ -172,11 +172,22 @@ footer {
 
 /* properties */
 
+.vc_properties .vc_menu-list {
+    height:100px;
+}
+
+.vc_properties .vc_list-group {
+    margin-left: auto;
+    margin-right: auto;
+    width: 390px;
+}
+
 .vc_properties .vc_list-group-item {
     border-top: none;
     border-right:none;
-    border-bottom: none;
-    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-left: none;
+    float:left;
 }
 
 .vc_properties .vc_list-group-item li,
@@ -307,9 +318,6 @@ footer a:hover {
     text-decoration: none;
 }
 
-
-
-
 /* MEDIA QUERIES */
 
 @media screen and (min-width:768px) {
@@ -325,6 +333,23 @@ footer a:hover {
     .vc_text-left-sm {
         text-align: left;
     }
+
+    .vc_properties .vc_list-group-item {
+        border-bottom: none;
+        border-left: 1px solid #ddd;
+        float:none;
+    }
+
+    .vc_properties .vc_menu-list {
+        height:100%;
+    }
+
+    .vc_properties .vc_list-group {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+
 }
 
 @media screen and (min-width:992px) {
@@ -347,7 +372,7 @@ OK - ridurre a mano la larghezza delle voci di menu in md - logo
 OK - allineamento form in banner (row dentro container?) - dare altezza a col
 OK - aggiungere la G di Google al form
 OK - ridurre a mano la larghezza dei loghi clients in md (img-responsive?)
-- properties aggiornate al nuovo sito
+OK - properties aggiornate al nuovo sito
 - centramento verticale delle i dei carousel (before e after?)
 - togliere border-bottom alle ultime due righe di location
 - freccia after link
