@@ -69,6 +69,13 @@ footer {
     padding-top:50px;
     padding-bottom: 50px;
 }
+
+.vc_vertical-middle {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 /* header */
 
 .vc_navbar {
@@ -109,9 +116,9 @@ footer {
     background: none;
 }
 
-/* .h-800 {
-    height:800px;
-} */
+.h-500 {
+    height:500px;
+}
 
 .vc_form .vc_title span {
     display: block;
@@ -119,13 +126,12 @@ footer {
 }
 
 .vc_form {
+    width:100%;
     border-radius: 5px;
     padding-top:30px;
     padding-bottom: 30px;
-    /* position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 10%; */
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .vc_form .btn {
@@ -312,7 +318,9 @@ footer a:hover {
         font-size: 30px;
     }
 
-
+    .vc_text-left-sm {
+        text-align: left;
+    }
 }
 
 @media screen and (min-width:992px) {
