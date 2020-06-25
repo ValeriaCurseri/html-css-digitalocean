@@ -159,6 +159,10 @@ footer {
     font-size: 12px;
 }
 
+.vc_banner .vc_form button img {
+    height: 20px;
+}
+
 /* clients */
 
 .vc_clients .row{
@@ -340,11 +344,13 @@ footer a:hover {
 
 /* DA FARE
 OK - ridurre a mano la larghezza delle voci di menu in md - logo
-- allineamento form in banner (row dentro container?) - dare altezza a col
-- aggiungere la G di Google al form
+OK - allineamento form in banner (row dentro container?) - dare altezza a col
+OK - aggiungere la G di Google al form
 - ridurre a mano la larghezza dei loghi clients in md (img-responsive?)
 - properties aggiornate al nuovo sito
 - centramento verticale delle i dei carousel (before e after?)
 - togliere border-bottom alle ultime due righe di location
 - freccia after link
+- responsive generale
+- centratura della scritta nel bottone google del form nel banner
  */
