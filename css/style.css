@@ -112,6 +112,15 @@ footer {
 
 /* banner */
 
+.vc_banner {
+    background-color: #0069ff;
+    background-image: url('https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#fff;
+}
+
 .vc_banner .jumbotron {
     background: none;
 }
@@ -264,6 +273,15 @@ footer {
 
 /* LOCATIONS */
 
+.vc_locations {
+    background-color: #031b4e;
+    background-image: url('https://images.prismic.io/www-static/bb563ec9-49ef-4ceb-8468-da84f1509fcc_bg-map-solid.svg?auto=compress,format');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#fff;
+}
+
 .vc_locations .vc_code {
     width:80px;
     font-weight: bold;
@@ -277,7 +295,7 @@ footer {
 }
 
 /* .vc_locations .vc_location .vc_loc:last-of-type {
-    border-bottom: none;
+    border-bottom: none!important;
 } */
 
 .vc_loc{
@@ -369,7 +387,6 @@ footer a:hover {
 
 /* FINE STRUTTURA */
 
-
 /* DA FARE
 OK - ridurre a mano la larghezza delle voci di menu in md - logo
 OK - allineamento form in banner (row dentro container?) - dare altezza a col
@@ -378,7 +395,7 @@ OK - ridurre a mano la larghezza dei loghi clients in md (img-responsive?)
 OK - properties aggiornate al nuovo sito
 OK - centramento verticale delle i dei carousel (before e after?)
 - togliere border-bottom alle ultime due righe di location
-- freccia after link
 - responsive generale
 - centratura della scritta nel bottone google del form nel banner
+OK - svg di sfondo
  */
