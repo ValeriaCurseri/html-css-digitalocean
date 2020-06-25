@@ -210,8 +210,16 @@ footer {
     margin-bottom:80px;
 }
 
-.vc_icona {
+.vc_carousel .vc_icona {
     display:none;
+    height: 300px;
+}
+
+.vc_carousel .vc_icona i {
+    font-size: 30px;
+    position:absolute;
+    top:50%;
+    transform: translateY(-50%);
 }
 
 .vc_carousel span {
@@ -226,7 +234,6 @@ footer {
 .vc_carousel .vc_blockquote {
     padding-top: 40px;
     padding-bottom: 40px;
-    margin-top:50px;
     margin-bottom: 20px;
 }
 
@@ -322,12 +329,8 @@ footer a:hover {
 
 @media screen and (min-width:768px) {
 
-    .vc_icona {
-        display:inline-block;
-    }
-
-    .vc_carousel .vc_icona i {
-        font-size: 30px;
+    .vc_carousel .vc_icona {
+        display:block;
     }
 
     .vc_text-left-sm {
@@ -373,7 +376,7 @@ OK - allineamento form in banner (row dentro container?) - dare altezza a col
 OK - aggiungere la G di Google al form
 OK - ridurre a mano la larghezza dei loghi clients in md (img-responsive?)
 OK - properties aggiornate al nuovo sito
-- centramento verticale delle i dei carousel (before e after?)
+OK - centramento verticale delle i dei carousel (before e after?)
 - togliere border-bottom alle ultime due righe di location
 - freccia after link
 - responsive generale
