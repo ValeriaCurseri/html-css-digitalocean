@@ -161,14 +161,17 @@ footer {
 .vc_form .btn.vc_signup {
     box-shadow: 2px 2px 4px #888888;
     border:none;
-}
-
-.vc_form span {
-    font-size: 12px;
+    position:relative;
 }
 
 .vc_banner .vc_form button img {
     height: 20px;
+    position:absolute;
+    left:10px;
+}
+
+.vc_form span {
+    font-size: 12px;
 }
 
 /* clients */
