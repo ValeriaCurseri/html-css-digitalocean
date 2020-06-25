@@ -125,8 +125,8 @@ footer {
     background: none;
 }
 
-.h-500 {
-    height:500px;
+.h-300 {
+    height:300px;
 }
 
 .vc_form .vc_title span {
@@ -177,6 +177,11 @@ footer {
 .vc_clients .row{
     padding-top: 30px;
     padding-bottom:30px;
+}
+
+.vc_clients img {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* properties */
@@ -347,6 +352,10 @@ footer a:hover {
 
 @media screen and (min-width:768px) {
 
+    .h-500 {
+        height:500px;
+    }
+
     .vc_carousel .vc_icona {
         display:block;
     }
@@ -395,7 +404,8 @@ OK - ridurre a mano la larghezza dei loghi clients in md (img-responsive?)
 OK - properties aggiornate al nuovo sito
 OK - centramento verticale delle i dei carousel (before e after?)
 - togliere border-bottom alle ultime due righe di location
-- responsive generale
+OK - responsive generale
 - centratura della scritta nel bottone google del form nel banner
 OK - svg di sfondo
+- form centrato orizzontalmente da mobile
  */
