@@ -135,7 +135,6 @@ footer {
 }
 
 .vc_form {
-    width:100%;
     border-radius: 5px;
     padding-top:30px;
     padding-bottom: 30px;
@@ -424,9 +423,9 @@ OK - aggiungere la G di Google al form
 OK - ridurre a mano la larghezza dei loghi clients in md (img-responsive?)
 OK - properties aggiornate al nuovo sito
 OK - centramento verticale delle i dei carousel (before e after?)
-- togliere border-bottom alle ultime due righe di location
+OK - togliere border-bottom alle ultime due righe di location
 OK - responsive generale
 - centratura della scritta nel bottone google del form nel banner
 OK - svg di sfondo
-- form centrato orizzontalmente da mobile
+OK - form centrato orizzontalmente da mobile
  */
